@@ -1,0 +1,23 @@
+.favorite-card {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    border-radius: 32px;
+    width: 10rem;
+    height: 10rem;
+    font-weight: bold;
+  }
+
+  .fruit {
+    background: #fff2f0F0;
+  }
+
+  .vegetable {
+    background: #EFF7EE;
+  }
+
+  .snack {
+    background: #FFF8EB;
+  }
