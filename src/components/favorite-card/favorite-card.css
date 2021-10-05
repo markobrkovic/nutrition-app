@@ -1,0 +1,29 @@
+.grid__card {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.favorite-card {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    border-radius: 32px;
+    width: 11rem;
+    height: 11rem;
+    font-weight: bold;
+  }
+
+  .fruit {
+    background: #fff2f0F0;
+  }
+
+  .vegetable {
+    background: #EFF7EE;
+  }
+
+  .snack {
+    background: #FFF8EB;
+  }
