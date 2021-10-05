@@ -1,4 +1,4 @@
-.grid__card {
+.favorite-card__grid {
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -16,14 +16,14 @@
     font-weight: bold;
   }
 
-  .fruit {
+  .favorite-card__fruit {
     background: #fff2f0F0;
   }
 
-  .vegetable {
+  .favorite-card__vegetable {
     background: #EFF7EE;
   }
 
-  .snack {
+  .favorite-card__snack {
     background: #FFF8EB;
   }
