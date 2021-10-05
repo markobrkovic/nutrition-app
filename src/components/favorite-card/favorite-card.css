@@ -1,3 +1,9 @@
+.grid__card {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 .favorite-card {
     padding-top: 1rem;
     display: flex;
