@@ -2,6 +2,8 @@
     display: flex;
     text-align: center;
     margin-bottom: 1rem;
+    border-radius: var(--border-radius-small);
+    overflow: hidden;
 }
 
 .food-and-recipes {
@@ -11,29 +13,22 @@
 .food-and-recipes__food {
     color: white;
     background-color: var(--color-secondary);
-    border-top-left-radius: var(--border-radius-small);
-    border-bottom-left-radius: var(--border-radius-small);
+
 }
 
 .food-and-recipes__recipes {
     color: var(--color-secondary);
     background-color: var(--color-secondary-light);
-    border-top-right-radius: var(--border-radius-small);
-    border-bottom-right-radius: var(--border-radius-small);
 }
 
 /* SWITCH */
 
-.food-and-recipes__food-switch {
+.food-and-recipes__food--switch {
     color: var(--color-secondary);
     background-color: var(--color-secondary-light);
-    border-top-left-radius: var(--border-radius-small);
-    border-bottom-left-radius: var(--border-radius-small);
 }
 
-.food-and-recipes__recipes-switch {
+.food-and-recipes__recipes--switch {
     color: white;
     background-color: var(--color-secondary);
-    border-top-right-radius: var(--border-radius-small);
-    border-bottom-right-radius: var(--border-radius-small);
 }
